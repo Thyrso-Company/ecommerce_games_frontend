@@ -2,7 +2,7 @@ import axios from "axios";
 import { getToken } from "./auth";
 
 const api = axios.create({
-    baseURL: 'http://ecommerce_games_frontend.test:8080',
+    baseURL: 'http://ecommerce_games_backend.test:8080',
 });
 
 api.interceptors.request.use(async config => {
